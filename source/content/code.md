@@ -21,7 +21,7 @@ Your site's code repository includes your entire codebase, including core Drupal
 Pantheon adds core files to your code by default:
 
 - `pantheon.yml`
-    - Refer to [Pantheon YAML Configuration Files](https://pantheon.io/docs/pantheon-yml) for more information.
+    - Refer to [Pantheon YAML Configuration Files](https://docs.pantheon.io/pantheon-yml) for more information.
 
 - `composer.lock`
     - Pantheon runs composer install when a site is created. This generates a `composer.lock` file, and commits it back to the site’s code repository. This writes all packages and their exact versions to the `composer.lock` file, locking the project to those specific versions. Anyone who sets up the project must use the exact dependency versions you locked in the file.
